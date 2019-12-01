@@ -7,6 +7,7 @@ elements=['rock','paper','scissor']
 computerchoice=random.choice(elements)
 #print computerchoice
 userchoice=raw_input("Choice rock, paper, or scissor: ")
+#for python3.7 use input instead of raw_input
 C=computerchoice
 U=userchoice
 while C==U:
